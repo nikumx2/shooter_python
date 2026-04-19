@@ -1,4 +1,4 @@
-#Создай собственный Шутер!
+#Проект шутер
 from pygame import *
 from random import *
 from time import time as timer
@@ -151,7 +151,7 @@ lose = win_lose_font.render('ПОРАЖЕНИЕ', 1, (255, 0, 0))
 pause_text = win_lose_font.render('ПАУЗА', 1 , (0, 255, 0))
 
 
-
+#Начало игрового цикла
 
 while game:
     #Обработка нажатия на кнопку закрытия окна
